@@ -83,7 +83,7 @@ public class MainActivity extends ActionBarActivity {
                     .post(formBody)
                     .build();
 
-            Response response = null;
+            Response response;
             try {
                 response = client.newCall(request).execute();
                 String result = response.body().string();
