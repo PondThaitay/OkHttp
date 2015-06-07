@@ -119,7 +119,7 @@ public class MainActivity extends ActionBarActivity {
                     .url("http://www.cm-smarthome.com/android/a1.png")
                     .build();
 
-            Response response = null;
+            Response response;
             try {
                 response = client.newCall(request).execute();
                 InputStream result = response.body().byteStream();
