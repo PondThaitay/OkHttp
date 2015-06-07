@@ -19,6 +19,5 @@
         android:text="Large Text"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="90dp" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
